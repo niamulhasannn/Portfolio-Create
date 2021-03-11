@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+*{
+    box-sizing: border-box;
+
+}
+
+body{
+  overflow-x: hidden;
+ 
+    
+}
+
+
+/* logo-part */
+.bg-custom{
+    background:linear-gradient(90deg,#efefef 72%,#bc1823 28%);
+}
+@media only screen and (max-width: 768px) {
+    .bg-custom {
+        background:linear-gradient(90deg,#efefef 72%,#efefef 28%);
+    }
+    }
+  
+.logo-custom{
+    padding: 70px;
+    margin-left: 25%;
+}
+
+.logo-custom img {
+    width: 81px;
+   margin-bottom: 60px;
+}
+.logo-custom h1{
+    font-family: 'Roboto Condensed', sans-serif; 
+    font-size: 60px;
+}
+.logo-custom h3{
+    font-size: 20px;
+}
+.btn-custom {
+    margin-top: 20px;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+.bg-custom2{
+    background-color:#efefef ;
+}
+.txt2-custom{
+    font-family: 'Roboto Condensed', sans-serif; 
+}
+.txt2-custom h1{
+  line-height: 130px;
+  font-size: 60px;
+}
